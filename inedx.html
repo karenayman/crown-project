@@ -301,7 +301,7 @@
 <!-- end section3 work with us -->
 <!-- start section4 work for us -->
 <section class="work-for-us">
-  <dic class="container">
+  <!-- <div class="container"> -->
     <div class="card bg-dark text-white">
       <img src="images/bg-6@2x.png" class="card-img img-fluid cover" alt="...">
       <div class="card-img-overlay">
@@ -312,7 +312,7 @@
         </div>
       </div>
     </div>
-  </dic>
+  <!-- </div> -->
 </section>
 <!-- end section4 work for us -->
 <!-- start section5 gallery-->
@@ -321,21 +321,33 @@
     <p class="text-center">SEE WHAT WE DO</p>
   <div class="text-center title">OUR <span>GALLERY</span></div>
     <div class="row">
-      <div class="col-md-4 col-xs-6"><img src="images/hero_home_01@2x.png" class="img-fluid" alt="..."></div>
-      <div class="col-md-4 col-xs-6"><img src="images/startup-849794_1920@2x.png" class="img-fluid" alt="..."></div>
-      <div class="col-md-4 col-xs-6"><img src="images/paper-3213924_1920@2x.png" class="img-fluid" alt="..."></div>
-      <div class="col-md-4 col-xs-6"><img src="images/contract-408216_1920@2x.png" class="img-fluid" alt="..."></div>
-      <div class="col-md-4 col-xs-6"><img src="images/startup-849805_1920@2x.png" class="img-fluid" alt="..."></div>
-      <div class="col-md-4 col-xs-6"><img src="images/office-624749_1920@2x.png" class="img-fluid" alt="..."></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/hero_home_01@2x.png" class="img-fluid gallery-item" alt="gallery1"></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/startup-849794_1920@2x.png" class="img-fluid gallery-item" alt="gallery2"></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/paper-3213924_1920@2x.png" class="img-fluid gallery-item" alt="gallery3"></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/contract-408216_1920@2x.png" class="img-fluid gallery-item" alt="gallery4"></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/startup-849805_1920@2x.png" class="img-fluid gallery-item" alt="gallery5"></div>
+      <div class="col-md-4 col-xs-6"><img  src="images/office-624749_1920@2x.png" class="img-fluid gallery-item" alt="gallery6"></div>
       <div class="text-center mb-5">
         <a href="#" class="btn">SEE ALL</a>
       </div>
-      
     </div>
-    
-
   </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="images/hero_home_01@2x.png" class="modal-img" alt="image-modal"/>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal -->
 <!-- end section5 gallery-->
 
 <!-- start section6 experince -->
@@ -429,7 +441,7 @@
             
             <form class="footerform">
               <div>
-                <input type="text" placeholder=" Your Email" name="mail"class="email" >
+                <input type="text" placeholder=" Your Email" name="mail" class="email" >
                 <input type="submit" value="Subscribe" class="btn">
               </div>
             </form>
